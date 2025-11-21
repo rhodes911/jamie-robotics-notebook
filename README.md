@@ -27,3 +27,10 @@ The repository is organised in phases. Each phase corresponds to a stage in the 
 | `06-portfolio` | Videos, demos, separate repositories, CV drafts and job application tracking. |
 
 The notes in this repository are written in Markdown. Use them as a living document – update checklists, jot down ideas, paste code snippets, sketch diagrams and record your observations. Each phase also contains a `notes.md` file for unstructured comments.
+
+
+## Using GitHub Copilot to accelerate your notebook
+
+If you subscribe to GitHub Copilot, you can use it to generate the remaining phase notes, code skeletons and markdown templates quickly. This repository includes a `.github/copilot-instructions.md` file that describes the project structure, technology stack, coding guidelines and resources in one place. Providing this context helps Copilot produce more accurate and relevant suggestions – the GitHub team notes that listing your folder structure and goals in a custom instructions file can significantly improve Copilot's outputs【309399188316687†L642-L674】.
+
+To use it, create a new file in the relevant folder (for example `02-skill-building/ros2-intermediate.md`) and let Copilot suggest the outline and boilerplate based on the project structure. You can then fill in your own notes and code. Refer to [`.github/copilot-instructions.md`](./.github/copilot-instructions.md) for the full instructions and structure.
